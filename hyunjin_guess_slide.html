@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GUESS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- <link rel="stylesheet" href="./style_fade.css"> -->
+  <link rel="stylesheet" href="./style_slide.css">
+
+  <script src="./main_slide.js" defer></script>
+  
+</head>
+<body>
+  <nav class="nav_bar">
+    <div class="nav_menus">
+      <i class="fa-solid fa-bars"></i>
+      <span>GUESS</span>
+    
+      <ul class="menuLeft">
+        <li>여성</li>
+        <li>남성</li>
+        <li>컬렉션</li>
+        <li>데님</li>
+        <li>가방</li>
+      </ul>
+      <ul class="menuRight">
+        <li>GUESS JEANS</li>
+        <li>비디오 클립</li>
+        <li>시즌오프</li>
+        <li>데님 스타일링</li>
+        <li>베스트</li>
+        <li>프로모션</li>
+        <li>이벤트</li>
+      </ul>
+    </div>
+    <div class="nav_icons">
+      <a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+      <a href="#"><i class="fa-regular fa-user"></i></a>
+      <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+    </div>
+  </nav>
+
+  <section>
+    <div class="imgContentBox">
+      <div class="imgBox" ontransitionend="fixloop()">
+        <div class="img img0">
+          <img src="./Img_guess/guess6.jpg" alt="img1">
+        </div>
+
+        <div class="img img1">
+          <img src="./Img_guess/guess1.jpg" alt="img1">
+        </div>
+
+        <div class="img img2">
+          <img src="./Img_guess/guess2.jpg" alt="img2">
+          <div class="texts">
+            <h1 class="fontH1">DENIM IS OUR WORLD</h1>
+            <h4>청량한 인디고 컬러 속 경쾌하게 스며든 NMIXX의 에너지</h4>
+            <h6>View More +</h6>
+            <div class="line"></div>
+          </div>
+        </div>
+
+        <div class="img img3">
+          <img src="./Img_guess/guess3.jpg" alt="img3">
+          <div class="texts">
+            <h1>COOL TOUCH DENIM</h1>
+            <h4>더운 날엔 더 가볍게, 게스 쿨 터치 데님을 만나보세요.</h4>
+            <h6>View More +</h6>
+          </div>
+        </div>
+
+        <div class="img img4">
+          <img src="./Img_guess/guess4.jpg" alt="img4">
+          <div class="texts">
+            <h1>ONLINE EXCUSIVES</h1>
+            <h4>뉴시즌을 특별하게 만들어줄 온라인 단독 컬렉션 Part2</h4>
+            <h6>View More +</h6>
+          </div>
+        </div>
+
+        <div class="img img5">
+          <img src="./Img_guess/guess5.webp" alt="img5">
+          <div class="texts">
+            <h1>SPRING NEW COLECTION</h1>
+            <h4>싱그러움이 피어나는 SS 시즌 컬렉션</h4>
+            <h6>View More +</h6>
+          </div>
+        </div>
+        <div class="img img6">
+          <img src="./Img_guess/guess6.jpg" alt="img6">
+          <div class="texts">
+            <h1>NEW NOW NEXT</h1>
+            <h4>GUESS Ft. NMIXX SUMMER HANDBAG</h4>
+            <h6>View More +</h6>
+          </div> 
+        </div>
+        <div class="img img7">
+          <img src="./Img_guess/guess1.jpg" alt="img6">
+        </div>
+      </div>
+      
+    <button onclick="preBtn()" class="preBtn"><i class="fa-solid fa-chevron-left"></i></button>
+    <button onclick="nextBtn()" class="nextBtn"><i class="fa-solid fa-chevron-right"></i></button>
+    
+    <div class="countNum"> 2 / 6</div>
+  </section>
+
+</body>
+</html>
